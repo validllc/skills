@@ -33,3 +33,14 @@ plugins/<name>/
 2. Entry in `.claude-plugin/marketplace.json`.
 3. `claude plugin validate .`
 4. Bump `version` on every change so installs update.
+
+## Refresh cf-cli
+
+`cf` is beta; docs and flags change. When `cf --version` moves past v1.0.0-beta.12:
+
+```sh
+curl -s https://developers.cloudflare.com/cf/llms-full.txt > /tmp/cf-docs.md   # full manual, ~10k lines
+cf --help; cf deploy --help; cf migrate --help                                   # real flags beat docs
+```
+
+Diff against `plugins/cf-cli/skills/cf-cli/`, update the pinned version in `SKILL.md`, bump `version` in `plugin.json`.
