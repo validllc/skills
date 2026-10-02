@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "validllc",
-  "description": "Agent skills, one plugin per folder.",
+  "description": "Skills for coding agents, one installable plugin per folder. Includes cf-cli: the Cloudflare CLI (cf) manual, condensed and verified.",
   "owner": {
     "name": "validllc"
   },
