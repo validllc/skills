@@ -1,0 +1,21 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "validllc",
+  "description": "Agent skills, one plugin per folder.",
+  "owner": {
+    "name": "validllc"
+  },
+  "plugins": [
+    {
+      "name": "cf-cli",
+      "source": "./plugins/cf-cli",
+      "description": "Skill for the Cloudflare CLI (cf): command discovery, cloudflare.config.ts, dev/build/deploy, Wrangler migration, CI.",
+      "keywords": [
+        "cloudflare",
+        "cf",
+        "workers",
+        "wrangler"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "cf-cli",
+  "description": "Skill for the Cloudflare CLI (cf): command discovery, cloudflare.config.ts, dev/build/deploy, Wrangler migration, CI.",
+  "version": "0.1.0",
+  "keywords": ["cloudflare", "cf", "workers", "cloudflare.config.ts", "wrangler"]
+}
