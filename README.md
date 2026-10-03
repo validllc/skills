@@ -2,9 +2,9 @@
 
 Claude Code plugin marketplace. One folder per plugin under `plugins/`, each installable on its own.
 
-| Plugin | Covers |
-| --- | --- |
-| `cf-cli` | Cloudflare CLI (`cf`, beta): command discovery, `cloudflare.config.ts`, dev/build/deploy, modes, Wrangler migration, CI. From https://developers.cloudflare.com/cf/ (Sep 2026), checked against cf v1.0.0-beta.12. |
+## Plugins
+
+**cf-cli**: Cloudflare CLI (`cf`, beta). Command discovery, `cloudflare.config.ts`, dev/build/deploy, modes, Wrangler migration, CI. From https://developers.cloudflare.com/cf/ (Sep 2026), checked against cf v1.0.0-beta.12.
 
 ## Install
 
